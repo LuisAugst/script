@@ -1,5 +1,5 @@
-# script
-
+# Atualizar a página depois de finalizar o uso do script
+    
 ```
 async function enviarScript(scriptText) {
     const lines = scriptText.split(/[\n\t]+/).map(line => line.trim()).filter(line => line);
