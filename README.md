@@ -1,3 +1,4 @@
+'''
 async function enviarScript(scriptText) {
     const lines = scriptText.split(/[\n\t]+/).map(line => line.trim()).filter(line => line);
     const main = document.querySelector("#main");
@@ -3710,3 +3711,4 @@ THE END
 `, repeatCount)
     .then(e => console.log(`Código finalizado, ${e * repeatCount} mensagens enviadas`))
     .catch(console.error);
+'''
