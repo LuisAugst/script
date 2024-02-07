@@ -1,7 +1,7 @@
 # script
 
-´´´
-async function enviarScript(scriptText) {
+```
+    async function enviarScript(scriptText) {
     const lines = scriptText.split(/[\n\t]+/).map(line => line.trim()).filter(line => line);
     const main = document.querySelector("#main");
     const textarea = main.querySelector(`div[contenteditable="true"]`);
@@ -3713,4 +3713,4 @@ THE END
 `, repeatCount)
     .then(e => console.log(`Código finalizado, ${e * repeatCount} mensagens enviadas`))
     .catch(console.error);
-´´´
+```
